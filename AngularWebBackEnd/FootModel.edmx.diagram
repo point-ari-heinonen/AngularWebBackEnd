@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="7845a166796f4167bc0159d35e966760" Name="Diagram1">
+        <EntityTypeShape EntityType="JalkahoitolaModel.ProductGroup" Width="1.5" PointX="0.75" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="JalkahoitolaModel.Product" Width="1.5" PointX="3" PointY="5" IsExpanded="true" />
+        <EntityTypeShape EntityType="JalkahoitolaModel.Recieved_ammount" Width="1.5" PointX="5.25" PointY="5.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="JalkahoitolaModel.Stock" Width="1.5" PointX="7.5" PointY="5.5" IsExpanded="true" />
+        <AssociationConnector Association="JalkahoitolaModel.FK_Products_ProductGroups1" ManuallyRouted="false" />
+        <AssociationConnector Association="JalkahoitolaModel.FK_Recieved_ammount_Products" ManuallyRouted="false" />
+        <AssociationConnector Association="JalkahoitolaModel.FK_Stock_Recieved_ammount" ManuallyRouted="false" />
+      </Diagram>
+      <Diagram DiagramId="eecadc0d52064a1f88c750cdc230f20b" Name="Diagram2" >
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
